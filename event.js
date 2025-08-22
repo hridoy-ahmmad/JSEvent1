@@ -24,3 +24,15 @@ function makePurple() {
     document.body.style.backgroundColor = 'purple'
 }
 purpleMaker.onclick = makePurple;
+
+
+// professional way and best practice
+/**
+ * RECOMMENDED ---------------->>>>
+ */
+
+document.getElementById('green-btn').addEventListener('click',
+        function greenMaker() {
+            document.body.style.backgroundColor = 'green';
+        }
+    )
