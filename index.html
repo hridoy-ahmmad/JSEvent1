@@ -6,7 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    <button onclick="console.log('OUS,how dare You touched me!!!')"> This Is a simple Button </button>
+    <button onclick="yellowMaker()"> Yellow Body </button>
+    <button onclick="redMaker()"> red </button>
+    <button onclick="defaultcolor()"> default color </button>
+    <script>
+        
+        function yellowMaker (){
+            document.body.style.backgroundColor = 'yellow'
+        }
+        function defaultcolor(){
+            document.body.style.backgroundColor = 'white'
+        }
+        function redMaker(){
+            document.body.style.backgroundColor = 'red'
+        }
+    </script>
     <script src="event.js"></script>
 </body>
 </html>
