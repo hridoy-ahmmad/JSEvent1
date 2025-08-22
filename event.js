@@ -1,9 +1,16 @@
  function yellowMaker (){
             document.body.style.backgroundColor = 'yellow'
         }
-        function defaultcolor(){
-            document.body.style.backgroundColor = ''
-        }
         function redMaker(){
             document.body.style.backgroundColor = 'red'
         }
+        function defaultcolor(){
+            document.body.style.backgroundColor = ''
+        }
+
+        //  Another way 
+
+const blueMaker = document.getElementById('btn-blue');
+blueMaker.onclick = function blue (){
+    document.body.style.backgroundColor = 'blue';
+}    
